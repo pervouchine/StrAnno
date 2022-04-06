@@ -1,0 +1,3 @@
+StrAnno.bb : StrAnno.bed ../../hub/hg19/hg19.chrom.sizes
+        ../../bedToBigBed StrAnno.bed ../../hub/hg19/hg19.chrom.sizes StrAnno.bb
+
