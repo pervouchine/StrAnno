@@ -1,0 +1,5 @@
+hub StrAnno
+shortLabel Structural annotation
+longLabel Structural annotation of the human proteome by homology modelling
+genomesFile genomes.txt
+email d.pervouchine@skoltech.ru

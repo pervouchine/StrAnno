@@ -1,0 +1,106 @@
+track RINclass
+superTrack on show
+shortLabel RIN class
+longLabel Structural annotation by RIN class
+
+
+track Core
+parent RINclass
+bigDataUrl Core.bb
+shortLabel Core
+longLabel Core
+type bigBed
+visibility 1
+itemRgb on
+color 228,33,28
+
+track DNA
+parent RINclass
+bigDataUrl DNA.bb
+shortLabel DNA
+longLabel DNA
+type bigBed
+visibility 1
+itemRgb on
+color 77,175,74
+
+track Ligand
+parent RINclass
+bigDataUrl Ligand.bb
+shortLabel Ligand
+longLabel Ligand
+type bigBed
+visibility 1
+itemRgb on
+color 255,127,0
+
+track Metal
+parent RINclass
+bigDataUrl Metal.bb
+shortLabel Metal
+longLabel Metal
+type bigBed
+visibility 1
+itemRgb on
+color 255,217,47
+
+track Protein
+parent RINclass
+bigDataUrl Protein.bb
+shortLabel Protein
+longLabel Protein
+type bigBed
+visibility 1
+itemRgb on
+color 166,86,41
+
+track Surface
+parent RINclass
+bigDataUrl Surface.bb
+shortLabel Surface
+longLabel Surface
+type bigBed
+visibility 1
+itemRgb on
+color 102,102,102
+
+track Disorder
+parent RINclass
+bigDataUrl Disorder.bb
+shortLabel Disorder
+longLabel Disorder
+type bigBed
+visibility 1
+itemRgb on
+color 55,126,184
+
+track Ion
+parent RINclass
+bigDataUrl Ion.bb
+shortLabel Ion
+longLabel Ion
+type bigBed
+visibility 1
+itemRgb on
+color 152,78,163
+
+track Peptide
+parent RINclass
+bigDataUrl Peptide.bb
+shortLabel Peptide
+longLabel Peptide
+type bigBed
+visibility 1
+itemRgb on
+color 166,118,29
+
+track RNA
+parent RINclass
+bigDataUrl RNA.bb
+shortLabel RNA
+longLabel RNA
+type bigBed
+visibility 1
+itemRgb on
+color 247,129,191
+
