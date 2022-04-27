@@ -15,7 +15,7 @@ all :: proteome_full_cds.tsv positions.tsv rin_classes.tsv ss_classes.tsv
 
 # 1. Download human structural annotation
 proteome.classification.tsv :
-	wget http://arkuda.skoltech.ru/~dp/shared/stranno/human.proteome.classification.tsv > proteome.classification.tsv
+	wget http://arkuda.skoltech.ru/~dp/shared/stranno/human.proteome.classification.tsv -O proteome.classification.tsv
 
 # 2. Extract protein sequences
 proteome.tsv : proteome.classification.tsv
